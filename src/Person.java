@@ -15,6 +15,12 @@ public class Person implements Comparable<Person>{
 	public int compareTo(Person o) {
 		return name.compareTo(o.getName());
 	}
+
+	@Override
+	public String toString() {
+		return name;
+	}
+	
 	
 	
 }
