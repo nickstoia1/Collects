@@ -12,7 +12,7 @@ public class Driver {
 		// TODO Auto-generated method stub
 		Person rafal = new Person("Rafal");
 		Person nick = new Person("Nick");
-		Person nate = new Person("rafal Reese");
+		Person nate = new Person("Nate Reese");
 		ArrayList<Person> temp = new ArrayList<>();
 		temp.add(rafal);
 		temp.add(rafal);
@@ -47,6 +47,8 @@ public class Driver {
 		yo2.put(nick, j + 1);
 		yo2.put(nate, j + 2);
 		System.out.println(yo2);
+		
+		System.out.println("HashMaps are not good for guaranteeing order. \nTreeMaps make it in order at all times based on the key. \nMake sure key has a comparable.");
 		
 	}
 
